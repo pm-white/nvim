@@ -1,8 +1,10 @@
 return {
+  { "yorickpeterse/vim-paper" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      -- colorscheme = "catppuccin",
+      colorscheme = "paper",
     },
   },
 }
